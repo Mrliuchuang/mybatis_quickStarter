@@ -14,19 +14,19 @@
 
 
     <!--查询用户-->
-    <select id="findAll" resultType="com.lagou.pojo.User">
+    <select id="findAll" resultType="user">
      <!--  <include refid="selectUser"></include>-->
         select * from user
     </select>
 
     <!--添加用户-->
     <!--parameterType：参数类型-->
-    <insert id="saveUser" parameterType="com.lagou.pojo.User" >
+    <insert id="saveUser" parameterType="user" >
         insert into user values(#{id},#{username})
     </insert>
 
     <!--修改-->
-    <update id="updateUser" parameterType="com.lagou.pojo.User">
+    <update id="updateUser" parameterType="user">
         update user set username = #{username} where id = #{id}
     </update>
 
@@ -35,9 +35,10 @@
         delete from user where id = #{abc}
     </delete>
 
-   <!-- &lt;!&ndash;多条件组合查询：演示if&ndash;&gt;
+    <!--多条件组合查询：演示if-->
     <select id="findByCondition" parameterType="user" resultType="user">
-        <include refid="selectUser"></include>
+        <!--<include refid="selectUser"></include>-->
+        select * from user
         <where>
         <if test="id !=null">
             and id = #{id}
@@ -49,7 +50,7 @@
 
     </select>
 
-    &lt;!&ndash;多值查询：演示foreach&ndash;&gt;
+    <!--多值查询：演示foreach-->
     <select id="findByIds" parameterType="list" resultType="user">
         <include refid="selectUser"></include>
         <where>
@@ -58,7 +59,7 @@
             </foreach>
         </where>
 
-    </select>-->
+    </select>
 
 
     

@@ -9,7 +9,6 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.jupiter.api.Test;
 
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -27,6 +26,8 @@ public class MybatisTest {
                                                                 //在进行增删改操作时，要手动提交事务
         //4.sqlSession调用方法：查询所有selectList  查询单个：selectOne 添加：insert  修改：update 删除：delete
         List<User> users = sqlSession.selectList("user.findAll");
+        /*sqlSession.delete("com.lagou.dao.IUserDao.deleteUser", 6);
+        sqlSession.commit();*/
         for (User user : users) {
             System.out.println(user);
         }

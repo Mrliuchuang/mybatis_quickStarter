@@ -14,19 +14,19 @@
 
 
     <!--查询用户-->
-    <select id="findAll" resultType="com.lagou.pojo.User">
+    <select id="findAll" resultType="user">
      <!--  <include refid="selectUser"></include>-->
         select * from user
     </select>
 
     <!--添加用户-->
     <!--parameterType：参数类型-->
-    <insert id="saveUser" parameterType="com.lagou.pojo.User" >
+    <insert id="saveUser" parameterType="user" >
         insert into user values(#{id},#{username})
     </insert>
 
     <!--修改-->
-    <update id="updateUser" parameterType="com.lagou.pojo.User">
+    <update id="updateUser" parameterType="user">
         update user set username = #{username} where id = #{id}
     </update>
 

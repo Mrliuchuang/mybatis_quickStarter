@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e41bad84-2b95-46a5-846a-94783be21fca" name="Default Changelist" comment="" />
+    <list default="true" id="e41bad84-2b95-46a5-846a-94783be21fca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatis_quickStarter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lagou/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lagou/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lagou/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lagou/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sqlMapConfig.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +25,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="E:\AJHTL\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -27,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1tZqVxVS4lBLaNjxDbDYaSe7Sac" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,21 +49,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LaGou_Mybatis_1/IPersistence_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Mybatis_1_IPersistence_test/IPersistence_test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IDEA_Projects\LaGou\Mybatis_3\mybatis_quickStarter\src\main\resources" />
       <recent name="E:\IEDA_project\LaGou\LaGou_Mybatis_3\mybatis_quickStarter\src\main\resources" />
       <recent name="E:\IEDA_project\LaGou\LaGou_Mybatis_3\mybatis_quickStarter\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.test5">
+  <component name="RunManager" selected="JUnit.MybatisTest.test1">
     <configuration name="MybatisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis_quickStarter" />
       <extension name="coverage">
@@ -115,10 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.test1" />
         <item itemvalue="JUnit.MybatisTest.test5" />
         <item itemvalue="JUnit.MybatisTest.test3" />
         <item itemvalue="JUnit.MybatisTest.test2" />
-        <item itemvalue="JUnit.MybatisTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1622986986511</updated>
       <workItem from="1622986989171" duration="7216000" />
+      <workItem from="1623029194271" duration="12060000" />
     </task>
     <servers />
   </component>
@@ -144,53 +162,71 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="830" y="265" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1622993316996" />
+    <state x="810" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1623031055437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="412" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623031055437" />
     <state width="490" height="466" key="DebuggerActiveHint" timestamp="1622990686412">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="490" height="466" key="DebuggerActiveHint/0.0.2048.1112@0.0.2048.1112" timestamp="1622990686412" />
-    <state x="805" y="314" key="FileChooserDialogImpl" timestamp="1622990334023">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="755" y="294" key="FileChooserDialogImpl" timestamp="1623041315026">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="755" y="294" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623041315026" />
     <state x="805" y="314" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1622990334023" />
-    <state width="2005" height="376" key="GridCell.Tab.0.bottom" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1623035340776">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340776" />
     <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
-    <state width="2005" height="376" key="GridCell.Tab.0.center" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1623035340776">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340776" />
     <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
-    <state width="2005" height="376" key="GridCell.Tab.0.left" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1623035340776">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340776" />
     <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
-    <state width="2005" height="376" key="GridCell.Tab.0.right" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1623035340776">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340776" />
     <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
-    <state width="2005" height="376" key="GridCell.Tab.1.bottom" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1623035340602">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340602" />
     <state width="2005" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
-    <state width="2005" height="376" key="GridCell.Tab.1.center" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1623035340601">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340601" />
     <state width="2005" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
-    <state width="2005" height="376" key="GridCell.Tab.1.left" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1623035340601">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340601" />
     <state width="2005" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
-    <state width="2005" height="376" key="GridCell.Tab.1.right" timestamp="1622994157270">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1623035340602">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623035340602" />
     <state width="2005" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1622994157270" />
     <state x="555" y="214" key="Maven.ArtifactSearchDialog" timestamp="1622988742689">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="555" y="214" key="Maven.ArtifactSearchDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1622988742689" />
-    <state x="528" y="201" key="SettingsEditor" timestamp="1622989584259">
-      <screen x="0" y="0" width="2048" height="1112" />
+    <state x="583" y="222" key="NewModule_or_Project.wizard" timestamp="1623041299965">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="583" y="222" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1623041299965" />
+    <state x="495" y="188" key="SettingsEditor" timestamp="1623029230372">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="495" y="188" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623029230372" />
     <state x="528" y="201" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1622989584259" />
     <state x="717" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1622987037204">
       <screen x="0" y="0" width="2048" height="1112" />
